@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+        <a class="nav-link active" href="{%url 'home' %}" style="background-color:black"><h4 style="color:white">Detail</h4></a>
+        </li>
+        </ul>
+    <div>
+    <br>
+    <br>
+    <p style="text-align:center">안녕하세요. 이곳은 글자를 세주는 사이트 입니다. home으로 돌아가서 글자를 입력하고 결과값을 받아보세요!</p>
+    </div>
+    <div style="text-align:center" style="margin left:5rem">
+    <a href="{% url 'home' %}">home</a>
+    </div>
+</body>
+</html>
